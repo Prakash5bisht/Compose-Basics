@@ -6,6 +6,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.prakash.composebasics.InstagramProfilePageUIClone
 
 @Composable
 fun Navigation(navController: NavHostController){
@@ -31,6 +32,10 @@ fun Navigation(navController: NavHostController){
         }
         composable(route = Screens.AnimatedCircularProgressBar.route){
             AnimatedCircularProgressBar(navController)
+        }
+
+        composable(route = Screens.InstagramProfilePageUI.route){
+            InstagramProfilePageUIClone(navController)
         }
 
     }

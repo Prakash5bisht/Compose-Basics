@@ -71,5 +71,11 @@ fun Menu(navController: NavController) {
         ) {
             Text(text = "AnimatedCircularProgressBar", color = black, modifier = modifier)
         }
+        Button(
+            onClick = { navController.navigate(Screens.InstagramProfilePageUI.route) },
+            colors = ButtonDefaults.buttonColors(backgroundColor = green)
+        ) {
+            Text(text = "InstagramProfilePageUI", color = black, modifier = modifier)
+        }
     }
 }

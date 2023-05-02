@@ -8,4 +8,5 @@ sealed class Screens(val route: String){
     object SnackBarScreen : Screens("snack_bar_screen")
     object SimpleAnimationScreen : Screens("simple_animation_screen")
     object AnimatedCircularProgressBar : Screens("animated_circular_progressBar_screen")
+    object InstagramProfilePageUI : Screens("instagram_profile_page_screen")
 }
